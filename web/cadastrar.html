@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/cadastrar.css" type="text/css"/>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <header>
+            <div class="hright">
+                <img src="./imagem/finn.jpg" alt="alt" width="40" height="40"/>
+                <img src="./imagem/caroco.jpg" alt="alt" width="40" height="40"/>
+                <img src="./imagem/jake.jpg" alt="alt" width="40" height="40"/>
+            </div>
+            <img src="./imagem/logo.webp" alt="alt" width="120" height="60"/>
+            <div class="hright">
+                <img src="./imagem/marceline.jpg" alt="alt" width="40" height="40"/>
+                <img src="./imagem/reigelado.webp" alt="alt" width="40" height="40"/>
+                <img src="./imagem/princesajujuba.webp" alt="alt" width="40" height="40"/>
+            </div>
+        </header>
+        <div class="conteudo">
+            <center>
+                <h1>Cadastrar Personagem</h1>
+                <form  class="formu" action="controller_personagem" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" >
+                    <label for="conceito">Conceito:</label>
+                    <input type="text" id="conceito" name="conceito">
+                    <label for="caracteristicas">Caracteristicas:</label>
+                    <input type="text" id="caracteristicas" name="caracteristicas">
+                    <label for="historico">Histórico:</label>
+                    <input type="text" id="historico" name="historico">
+                    <label for="equipamento">Equipamento: </label>
+                    <input type="text" id="equipamento" name="equipamento">
+                    <label for="defeito">Defeito:   </label>
+                    <input type="text" id="defeito" name="defeito">
+                    <label for="ptheroi">Pontos de Herói:   </label>
+                    <input type="number" id="ptheroi" name="ptheroi">
+                    <label for="nvsaude">Niveis de Saúde:   </label>
+                    <input type="number" id="nvsaude" name="nvsaude">
+                    <label for="proeza1">Proeza 1:   </label>
+                    <input type="text" id="proeza1" name="proeza1">
+                    <label for="ptproeza1">Ponto de Proeza 1:   </label>
+                    <input type="number" id="ptproeza1" name="ptproeza1">
+                    <label for="proeza2">Proeza 2:   </label>
+                    <input type="text" id="proeza2" name="proeza2">
+                    <label for="ptproeza2">Ponto de Proeza 2:   </label>
+                    <input type="number" id="ptproeza2" name="ptproeza2">
+                    <label for="proeza3">Proeza 3:   </label>
+                    <input type="text" id="proeza3" name="proeza3">
+                    <label for="ptproeza3">Ponto de Proeza 3:   </label>
+                    <input type="number" id="ptproeza3" name="ptproeza3"><br>
+                    <input class="botao" type="reset" value="LIMPAR">
+                    <input class="botao" type="submit" name="op" value="CADASTRAR">
+                </form>
+                <button class="botao" onclick="document.location = 'index.html'">VOLTAR</button> <p>
+            </center>
+        </div>
+    </body>
+</html>

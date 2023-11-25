@@ -1,0 +1,27 @@
+.conteudo h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.botao {
+    margin-bottom: 7px;
+    background: #FFFF7B;
+    padding: 5px;
+    border-radius: 13px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+}
+
+.formu{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.formu input{
+    border-radius: 13px;
+}

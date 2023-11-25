@@ -1,0 +1,21 @@
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.conteudo h1{
+    margin-bottom: 10px;
+}
+
+.botao {
+    margin-bottom: 7px;
+    background: #FFFF7B;
+    padding: 5px;
+    border-radius: 19px;
+    width: 280px;
+    height: 40px;
+
+}

@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: #88C7E3;
+
+}
+header{
+    background: #FFFF7B;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hright {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.hright img {
+    border-radius: 19px;
+    margin-right: 5px;
+}
+
